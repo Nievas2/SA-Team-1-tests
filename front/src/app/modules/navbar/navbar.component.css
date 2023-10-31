@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+    width: 120px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.itemBlue:hover {
+    background-color: rgb(57, 87, 196) !important; 
+}
+.itemColor:hover{
+    background-color: rgb(253, 204, 111);
+}
+.bi{
+    margin-right: 10px;
+    color: white;
+}
+#buttonsNavBar{
+    color: #fff; 
+    background-color:orange ; 
+    padding-top: 3px; 
+    padding-bottom: 3px;
+}
+
+@media (max-width:991px){
+    .nav-item{
+        margin: 0 auto;
+    }
+    .nav-item .pad{
+        padding: 5px;
+    }
+}

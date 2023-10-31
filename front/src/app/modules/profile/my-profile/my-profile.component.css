@@ -1,0 +1,33 @@
+.container{
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.form-control{
+  margin: 15px;
+}
+
+h1,h2{
+  font-weight: bold;
+  padding: 20px;
+}
+
+#firstName, #lastName, #phone, #email{
+  margin: 10px 1px;
+} 
+
+.user-details {
+  margin-bottom: 20px;
+}
+  
+.edit-user {
+  margin-top: 20px;
+}
+
+.boton{
+  margin: 10px;
+}
+
+  
